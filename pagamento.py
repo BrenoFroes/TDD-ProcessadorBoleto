@@ -4,10 +4,9 @@ from fatura import Fatura
 
 class Pagamento(unittest.TestCase):
 
+    def __init__(self, valorPago, data, tipoPagamento):
+        self.valorPago = valorPago
+        self.data = data
+        self.tipoPagamento = tipoPagamento
 
-    def teste_inicial(self):
-        fatura = Fatura(0, '', '')
-        boleto = Boleto(0, 0, '')
-        if boleto == fatura:
-            return True
-        return False
+
