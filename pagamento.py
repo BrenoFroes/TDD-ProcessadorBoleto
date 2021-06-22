@@ -4,7 +4,7 @@ from fatura import Fatura
 
 class Pagamento(unittest.TestCase):
 
-    def __init__(self, valorPago, data, tipoPagamento):
+    def __init__(self, valorPago, data):
         self.valorPago = valorPago
         self.data = data
         self.tipoPagamento = tipoPagamento
