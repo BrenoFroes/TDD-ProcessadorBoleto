@@ -1,8 +1,5 @@
-import unittest
-from boleto import Boleto
-
 class Fatura:
-    def __init__(self, valorTotal, data, nomeCliente):
+    def __init__(self, data, valorTotal, nomeCliente):
         self.data = data
         self.valorTotal = valorTotal
         self.nomeCliente = nomeCliente
